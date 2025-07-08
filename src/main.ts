@@ -55,8 +55,8 @@ class AppRouter {
     // --- 各画面の描画メソッド（Tailwind CSS版） ---
 
     private renderGameScreen() {
-        const canvasWidth = 500;
-        const canvasHeight = 700;
+        const canvasWidth = 500
+        const canvasHeight = 700
         
         // Tailwindのクラスを使って中央寄せ
         this.render(`
